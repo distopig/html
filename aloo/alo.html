@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>revisao</title>
+    <style>
+        body {
+            background-color: rgba(117, 40, 40, 0.897);
+            font: normal 16pt arial;
+            color: alicebluem;
+        }
+    </style>
+</head>
+<body>
+    <h1>vamos relenbra o <strong>DOM</strong></h1>
+    <p>relenbrando conseitos</p>
+    <p>vamos la </p>
+    <div id="msg"">clique em min </div>
+    <script> //essa tag serve para podemos usar javascript '-'
+        var p1 = window.document.getElementsByTagName('p')[0]
+        window.document.write('esta escrito assim: ' +  p1.innerText)
+        var d = document.getElementById('msg')
+        d.style.backgroundColor = 'yellow'
+        d.innerHTML = 'estou aguardando...'
+        p1.style.color = 'blue' 
+        var d2 = document.querySelector('div#msg')
+        d2.style.backgroundColor = 'pink'
+    </script>
+</body>
+</html>

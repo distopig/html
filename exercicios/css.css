@@ -1,0 +1,29 @@
+body{
+    background-color: rgba(65, 94, 255, 0.324);
+    font-family: Arial, Helvetica, serif;
+}
+h1{
+    color: rgba(82, 49, 161, 0.338);
+}
+#principal{
+    text-align: center;
+    background-color: rgba(185, 100, 215, 0.461);
+}
+h2{
+    color: rgba(99, 27, 186, 0.244);
+}
+p{
+    text-align: justify;
+}
+.basico{
+    color: rgb(193, 150, 93);
+}
+.medio{
+    color: rgb(180, 91, 61);
+}
+.avançado{
+    color: rgb(134, 52, 52);
+}
+.destaque{
+    background-color: rgba(220, 220, 30, 0.527);
+}
