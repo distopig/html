@@ -1,53 +1,77 @@
 *{
     margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600&family=Edu+QLD+Beginner&display=swap');
+:root{
+    --fonte:'Cormorant SC', serif
+}
+html, body{
+    font-family: 'Edu QLD Beginner', cursive;
+    min-height: 100vh;
+    background-color: darkgray;
 }
 header{
-    height: 100px;
     background-color: black;
     color: white;
     text-align: center;
 }
-main > p{
-    width: 130px;
-    padding: 15px;
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    /*esse comando deixa as letra maiusculas de forma equilipradas*/
 }
-#conteiner{
+header > p {
+    padding-bottom: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    /*esse aumenta o espaço das linhas*/
+    padding-left: 30px;
+}
+section > p{
+    padding-bottom: 2em;
+}
+.normal{
+    background-color: white;
+    color: black;
+}
+.img{
+    background-color: rgb(124, 123, 123);
+    color: white;
+    box-shadow:inset 6px 6px 13px 0px rgba(0, 0, 0, 0.612);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.img > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.459);
+    text-shadow: 2px 2px 0px black;
+}
+#img1{
     background-image: url(../imagens/background001.jpg);
-    background-size: 100% 100%;
-    height: 600px;
-    box-shadow:  5px 5px 5px rgba(0, 0, 0, 0.699);
+    background-position: right, center;
+    
 }
-#conteiner2{
-    position: relative;
+#img2{
     background-image: url(../imagens/background002.jpg);
-    background-size: 100% 100%;
-    height: 600px;
-    box-shadow:  5px 5px 5px rgba(0, 0, 0, 0.699);
-}
-#conteudo{
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.616);
-    color: white;
-    padding: 15px;
-    width: 130px;
-    top: 70%;
-    left: 10%;
-    transform: translate(-50, -50);
-}
-#conteudo2{
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.616);
-    color: white;
-    padding: 15px;
-    width: 130px;
-    top: 30%;
-    left: 10%;
-    transform: translate(-50, -50);
-}
+    background-position: right, center;
 
+}
 footer{
-    margin: 0%;
     background-color: black;
     color: white;
     text-align: center;
+    padding: 10px;
 }
