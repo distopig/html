@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mais testes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgba(176, 162, 86, 0.224);
+        }
+        td, th{
+            border: 1px solid black;
+        }
+        .num{
+            text-align: right;
+        }
+        thead, tfoot{
+            background-color: rgba(32, 84, 32, 0.573);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>tabelas grandes</h1>
+    <table>
+        <caption>população das unidades federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">estados</th>
+                <th scope="col" style="width: 100px;">população</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>são paulo</td>
+                <td class="num">41 262 199</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 411 923</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 463 349</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">total de habitantes</th>
+                <td class="num">00000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
