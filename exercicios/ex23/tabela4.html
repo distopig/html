@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .nome{
+            background-color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="nome" span="2">
+            <col class="idade">
+            <col class="prof">
+        </colgroup>
+        <caption>cadastros</caption>
+        <tr>
+            <th scope="col">nome</th>
+            <th scope="col">genero</th>
+            <th scope="col">idade</th>
+            <th scope="col">profissão</th>
+        </tr>
+        <tr>
+            <td>ana</td>
+            <td>f</td>
+            <td>25</td>
+            <td>jornalista</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas responsivas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        tr:nth-child(even){
+            background-color: rgb(35, 150, 150);
+        }
+        #container{
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <table>
+            <caption>tabelas</caption>
+            <thead>
+                <tr>
+                    <th>produto</th>
+                    <th>jan</th>
+                    <th>fev</th>
+                    <th>mar</th>
+                    <th>abr</th>
+                    <th>mai</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>pc</td>
+                    <td>3</td>
+                    <td>6</td>
+                    <td>2</td>
+                    <td>7</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>pratos</td>
+                    <td>3</td>
+                    <td>6</td>
+                    <td>2</td>
+                    <td>7</td>
+                    <td>1</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
